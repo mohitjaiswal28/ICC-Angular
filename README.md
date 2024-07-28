@@ -36,21 +36,25 @@ There are several methods of implementing ICC in Angular, including:
 # How to Clone and Run this Project 🖥️
 
 1. Clone the repository:
+
 ```
-git clone <repository-url>
+git clone https://github.com/mohitjaiswal28/ICC-Angular.git
 ```
 
 2. Navigate to the project directory:
+
 ```
-cd <project-directory>
+cd ICC-Angular
 ```
 
 3. Install the dependencies:
+
 ```
 npm install
 ```
 
 4. Run the application:
+
 ```
 ng serve
 ```
