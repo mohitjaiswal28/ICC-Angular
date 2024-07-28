@@ -1,0 +1,14 @@
+<div class="flex justify-center flex-col">
+  <label for="text">Enter data: </label>
+  <input
+    type="text"
+    class="bg-red-100 h-8 rounded mb-4 border-2 border-red-300 px-4 text-red-700"
+    [(ngModel)]="data"
+  />
+  <button
+    class="bg-blue-400 rounded py-4 hover:-translate-y-0.5"
+    (click)="sendToParent()"
+  >
+    Send to Parent
+  </button>
+</div>

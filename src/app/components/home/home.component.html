@@ -1,0 +1,16 @@
+<h6 class="flex justify-center mt-4 text-lg">Topic = {{ title }}</h6>
+
+<div class="flex justify-center mt-4 gap-4">
+  <button
+    class="p-3 px-4 bg-green-400 rounded-md text-md"
+    (click)="redirectP2C()"
+  >
+    Parent to Child
+  </button>
+  <button
+    class="p-3 px-4 bg-blue-400 rounded-md text-md"
+    (click)="redirectC2P()"
+  >
+    Child to Parent
+  </button>
+</div>

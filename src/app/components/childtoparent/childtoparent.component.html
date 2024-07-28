@@ -1,0 +1,16 @@
+<div class="flex justify-center mt-4">
+  <button class="p-3 bg-amber-300 rounded-lg" (click)="redirectHome()">
+    Home
+  </button>
+</div>
+<div
+  class="flex justify-center items-center mt-4 p-4 w-full border-2 m-4 border-red-300 flex-col"
+>
+  <p>This is parent</p>
+  <p>Data from child compoent is = {{ msg }}</p>
+  <div
+    class="flex justify-center items-center mt-4 p-4 w-96 border-2 m-4 border-green-400"
+  >
+    <app-child (sendToParentEvent)="getDataFromChild($event)"></app-child>
+  </div>
+</div>
